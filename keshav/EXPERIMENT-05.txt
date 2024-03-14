@@ -1,0 +1,55 @@
+EXPERIMENT-05
+Q1.Design a class Employee with attributes like employeeId, name, and salary. Derive classes Manager and Clerk with additional attributes.
+
+Q2. Create a class to display the family tree. All the members are to be created using separate classes and methods.
+	
+Q3.Library System: Create a class hierarchy for a library system with classes such as LibraryItem, Book, DVD, and Journal.
+Implement methods for checking out and returning items.
+
+Q4.A class 'Box' which contains methods and other details(width, height, depth) to calculate volume.
+Another class ‘Boxweight’ contains method for finding cost for shipping the box using weight of the box (formula to find cost of shipping= distance in km * volume * cost per km) 
+Take cost per KM by the user.
+WAP to find the volume of box and cost to ship using a single object
+
+Q5.WAP to create a method to create a method named 'multiply' and overload it such that-
+	For 2 inputs, multiply of 2 numbers are done
+	For 3 inputs, multiply of 3 numbers are done
+	For other numbers, multiply them all
+
+For multiple parameters (more than 3, pass array to the method)
+
+Use cases-
+(1)
+(For more than 3 parameters)
+
+Enter the number (Press * to stop): 5
+Enter the number (Press * to stop): 10
+Enter the number (Press * to stop): 3
+Enter the number (Press * to stop): 4
+Enter the number (Press * to stop): *
+
+Method for multiple numbers called- (Result)- 600
+
+ (2)
+(For 2 parameters)
+
+Enter the number (Press * to stop): 5
+Enter the number (Press * to stop): 10
+Enter the number (Press * to stop): *
+
+Method for Two numbers called- (Result)- 50
+
+(3)
+(For 3 parameters)
+
+Enter the number (Press * to stop): 5
+Enter the number (Press * to stop): 10
+Enter the number (Press * to stop): 50
+Enter the number (Press * to stop): *
+
+Method for Two numbers called- (Result)- 2500
+
+
+Q6. Shape is the super class for square and rectangle. Write a program to find areas of square and rectangle by inheriting shape.Method-find_Area() should be declared in shape. Parameters could be changed as per needed.
+
+Q7.Wap to understand that the parametereized constructor of the super class can be called from sub class using super() calling super class parametereized constructor from sub class. 
